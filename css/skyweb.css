@@ -19,6 +19,9 @@ body{
 	margin:50px auto 0;
 	width:90%;
 }
+#foot{
+	margin:40px auto 0;
+}
 .row-one{
 	float:left;
 	margin:30px 30px 30px 30px;
@@ -36,4 +39,8 @@ body{
   width: 774px;
   margin: 0 auto;
   position: relative;
+}
+#power{
+	text-align:center;
+	text-shadow:#666666;
 }
