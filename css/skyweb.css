@@ -24,3 +24,16 @@ body{
 	margin:30px 30px 30px 30px;
 }
 
+.ipadFrame {
+  background-image: url("../images/ipad-frame.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 573px;
+  width: 774px;
+  margin: 0 auto;
+  position: relative;
+}
