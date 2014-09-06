@@ -3,7 +3,7 @@ body{
 }
 
 #sky-intro{
-	margin:100px auto 0;
+	margin:30px auto 0;
 	width:90%;
 }
 #sky-memb{
@@ -39,6 +39,11 @@ body{
   width: 774px;
   margin: 0 auto;
   position: relative;
+}
+#video{
+	width:576px;
+	height:435px;
+	padding:61px 0 0 99px;
 }
 #power{
 	text-align:center;
