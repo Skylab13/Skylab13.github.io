@@ -1,6 +1,10 @@
 body{
 	padding-top: 50px; 
 }
+.page-header{
+	text-align:center;
+	
+}
 logo{
 	padding:0 10px 0 18px;
 }
