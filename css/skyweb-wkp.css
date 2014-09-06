@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(../images/bg1.jpg) no-repeat center center fixed; 
+	background:#505D6E url('../images/8.jpg') no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -90,7 +90,9 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /*                   UI - Buttons                       */
 /********************************************************/
 .btn{
-	color:#999;
+	font-family:"Verdana",Georgia,Serif ;
+	font-weight:bold;
+	color:#020;
 	text-shadow: none;
 	text-decoration: none;
 	-webkit-border-radius: 3px;
@@ -99,7 +101,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	border:0 none;
 }
 .btn:hover {
-	color:#020;
+	color:#000;
 }
 .btn-lg { 
 	padding:16px 30px;
