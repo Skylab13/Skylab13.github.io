@@ -2,7 +2,7 @@ body{
 	padding-top: 50px; 
 	background-color:#F5F5F5;
 }
-/*图片简介*/
+/*轮播图简介*/
 .carousel-caption{
 	margin:0 0 30px 0;
 }
@@ -25,18 +25,29 @@ body{
 	color:#999;
 	font-size:18px;
 }
-
+/*简介部分文字*/
+#jianjie{
+	text-align:center;
+	font-size:16px;
+	color:#666666;
+}
+/*各部分主框架*/
 #sky-intro{
 	margin:0 auto;
 	width:90%;
 }
+#Memb{
+	float:left;
+	background-color:#4C7F92;
+}
 #sky-memb{
-	margin:50px auto 0;
+	margin:50px 0 0 100px;/*临时对齐措施*/
 	width:90%;
+	
 }
 #sky-achi{
-	clear:both;
-	margin:50px auto 0;
+	clear:left;
+	margin:0 auto;
 	width:90%;
 }
 #sky-mess{
@@ -45,13 +56,22 @@ body{
 	width:90%;
 }
 #foot{
+	clear:both;
 	margin:40px auto 0;
 }
+/*成员简介*/
 .row-one{
 	float:left;
 	margin:30px 30px 30px 30px;
 }
-
+/*成员部分小标题*/
+#chengyuan{
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size:42px;
+	margin-right:90px;/*临时对齐措施*/
+}
+/**/
 .ipadFrame {
   background-image: url("../images/ipad-frame.png");
   background-position: 50% 50%;
