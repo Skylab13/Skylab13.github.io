@@ -1,15 +1,33 @@
 body{
 	padding-top: 50px; 
+	background-color:#F5F5F5;
 }
-.page-header{
+/*图片简介*/
+.carousel-caption{
+	margin:0 0 30px 0;
+}
+/*小标题*/
+.mintitle{
 	text-align:center;
-	
 }
-logo{
-	padding:0 10px 0 18px;
+/*简介部分小标题*/
+#intro{
+	margin: 60px 0 10px;
+	font-size:60px;
+	color:#5A5A5A;
+	font-weight:200;
+	line-height:1;
+	letter-spacing:-1px;
+	font-family:inherit;
+	text-rendering: optimizelegibility;
 }
+#intro2{
+	color:#999;
+	font-size:18px;
+}
+
 #sky-intro{
-	margin:30px auto 0;
+	margin:0 auto;
 	width:90%;
 }
 #sky-memb{
@@ -17,11 +35,12 @@ logo{
 	width:90%;
 }
 #sky-achi{
-	overflow:hidden;
+	clear:both;
 	margin:50px auto 0;
 	width:90%;
 }
 #sky-mess{
+	clear:both;
 	margin:50px auto 0;
 	width:90%;
 }
