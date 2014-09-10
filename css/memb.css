@@ -1,0 +1,23 @@
+#sky-memb{
+	margin:0 auto;
+	width:90%;
+        border-color:white;
+       
+}
+.row-one{
+	float:left;
+	margin:30px 37px 30px 37px;
+}
+#next{
+      margin:0 auto;
+      width:90%;
+}
+.next-one{
+         width:87%;
+         padding-left:0;
+         float:left;
+}
+.next-two{
+         width:3%;
+         float:right;
+}

@@ -19,9 +19,12 @@
 	<link href="css/ihover.min.css" rel="stylesheet">
 	<link href="css/skyweb.css" rel="stylesheet"><!-- 自定义CSS-->
 	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/FancyZoom.js"></script>
+	<script src="js/FancyZoomHTML.js"></script>
 
 </head>
-<body>
+<body onLoad="setupZoom();">
 
 	<!--标题栏-->
 	<div id="sky-title">
@@ -128,144 +131,42 @@
 	
 
 	<!--成员-->
-	<div id="Memb">
-	<div id="sky-memb">
-		<div class="mintitle">
-			<h1 id="chengyuan">成员简介</h1>
-			<hr width="90%"/>
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-		<div class="row-one">
-			<!-- normal -->
-			<div class="ih-item circle effect2 left_to_right">
-				<a href="#">
-					<div class="img">
-						<img src="images/memb1.jpg" alt="img"></div>
-					<div class="info">
-						<h3>Heading here</h3>
-						<p>Description goes here</p>
-					</div>
-				</a>
-			</div>
-			<!-- end normal -->
-		</div>
-	</div>
-	</div>
+	<iframe src="member/memberone.html" frameborder="0" width=100% height=650px ></iframe>
 
 	<!--成果-->
 	<div id="sky-achi">
-		<div class="mintitle">
-			<h1>成果</h1>
+		<div id="jianjie">
+			<br/><br/>
+			<strong><!--字太多太丑要修改-->
+			<p>Sky工作室成立于2004年，是一个由沈阳师范大学支持和领导，有专业教授带队对学生进行梯队式培养的学生实践创新实验室。伴随着沈阳师范大学的发展，
+			Sky</p>
+			<p>已成长为在计算机各个方面均有涉猎的综合性工作室。Sky工作室自成立以来，一直在不断地完善自己，我们的前辈现今都已取得了很大的成就。毕业以后的</p>
+			<p>他们，有的在沈阳航空航天大学做网络主管，有的为实现自己更高的理想而奔赴美国芝加哥的大学继续深造，也有的进入了优秀的IT公司工作，</p>
+			<p>包括微软、IBM、百度、Google、人人、金山、创新工场、 360、腾讯、网易、华为、机锋网、中国移动等，还有的已经有了自己的软件公司</p>
+			<p>他们分别在WEB编程、网络工程、操作系统、移动开发等方面具有很深的造诣，并且他们将会一直把所学所得毫无保留地传授给下一届，</p>
+			<p>就是这样一届一届的相传各自所长，从而达到共同学习和进步，这不仅使Sky工作室不断的壮大了起来，也使得我们为以后的工作</p>
+			<p>积累了宝贵的经验。Sky工作室为我们提供的自由宽松的学习环境，营造的快乐和谐的学习氛围，不仅使我们每个人</p>
+			<p>都能够各自发挥所长，也使得我们每个人的人生价值得以更好的体现。</p>
+			</strong>
+			<br/><br/>
 		</div>
-				<div id="jianjie">
-		<strong><!--字太多太丑要修改-->
-		<p>Sky工作室成立于2004年，是一个由沈阳师范大学支持和领导，有专业教授带队对学生进行梯队式培养的学生实践创新实验室。伴随着沈阳师范大学的发展，
-		Sky</p>
-		<p>已成长为在计算机各个方面均有涉猎的综合性工作室。Sky工作室自成立以来，一直在不断地完善自己，我们的前辈现今都已取得了很大的成就。毕业以后的</p>
-		<p>他们，有的在沈阳航空航天大学做网络主管，有的为实现自己更高的理想而奔赴美国芝加哥的大学继续深造，也有的进入了优秀的IT公司工作，</p>
-		<p>包括微软、IBM、百度、Google、人人、金山、创新工场、 360、腾讯、网易、华为、机锋网、中国移动等，还有的已经有了自己的软件公司</p>
-		<p>他们分别在WEB编程、网络工程、操作系统、移动开发等方面具有很深的造诣，并且他们将会一直把所学所得毫无保留地传授给下一届，</p>
-		<p>就是这样一届一届的相传各自所长，从而达到共同学习和进步，这不仅使Sky工作室不断的壮大了起来，也使得我们为以后的工作</p>
-		<p>积累了宝贵的经验。Sky工作室为我们提供的自由宽松的学习环境，营造的快乐和谐的学习氛围，不仅使我们每个人</p>
-		<p>都能够各自发挥所长，也使得我们每个人的人生价值得以更好的体现。</p>
-		</strong>
+		
+		<div id="chengguo">
+			<div class="photoblock-many">
+				
+			 	<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
+				
+			</div>
 		</div>
 	</div>
 
@@ -273,25 +174,23 @@
 
 	<!--留言-->
 	<div id="sky-mess">
-		<div class="mintitle">
-			<h1>留言</h1>
-			<!-- 多说评论框 start -->
+	<div></div>
+		<!-- 多说评论框 start -->
 	<div class="ds-thread" data-thread-key="Home" data-title="主页评论" data-url="http://skylab13.github.io/"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"skylab"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+		var duoshuoQuery = {short_name:"skylab"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
 	</script>
-<!-- 多说公共JS代码 end -->
-		</div>
+	<!-- 多说公共JS代码 end -->
 	</div>
 
 	<!--foot-->
@@ -301,6 +200,5 @@ var duoshuoQuery = {short_name:"skylab"};
 		</div>
 	</div>
 
-	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
