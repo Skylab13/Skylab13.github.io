@@ -22,9 +22,13 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/FancyZoom.js"></script>
 	<script src="js/FancyZoomHTML.js"></script>
+	
+	<script language="javascript">
+	$('body').scrollspy({ target: '.navbar-example' });
+	</script>
 
 </head>
-<body onLoad="setupZoom();">
+<body onLoad="setupZoom();" data-spy="scroll" data-target=".navbar-example">
 
 	<!--标题栏-->
 	<div id="sky-title">
@@ -40,13 +44,10 @@
 					</button>
 					<a class="navbar-brand" href="#">Sky Lab</a><!--这个logo图片要换-->
 				</div>
-				<div class="collapse navbar-collapse"><!--阴影效果要换，这个我正在努力做-->
-					<ul class="nav navbar-nav">
+				<div class="collapse navbar-collapse navbar-example"><!--阴影效果要换，这个我正在努力做-->
+					<ul class="nav navbar-nav nav-tabs">
 						<li class="active">
-							<a href="#">主页</a>
-						</li>
-						<li>
-							<a href="#sky-intro">简介</a>
+							<a href="#sky-intro">主页</a>
 						</li>
 						<li>
 							<a href="#smemb">成员</a>
