@@ -6,10 +6,6 @@ body{
 .carousel-caption{
 	margin:0 0 30px 0;
 }
-/*小标题*/
-.mintitle{
-	text-align:center;
-}
 /*简介部分小标题*/
 #intro{
 	margin: 60px 0 10px;
@@ -102,3 +98,12 @@ body{
    font-size: 10px;
    color: #888888;
 }
+/*成果展示图片*/
+.photo{
+	margin:10px 50px 10px 50px;
+	
+}
+
+
+
+
