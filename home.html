@@ -28,6 +28,16 @@
 	
 	<script language="javascript">
 	$('body').scrollspy({ target: '.navbar-example' });
+	
+	  function setHeight(){
+  	var iframe = document.getElementById("smemb");
+     try{
+       var aHeight = iframe.contentWindow.document.body.scrollHeight;
+       var bHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+       var height = Math.max(aHeight, bHeight);//取最高值;
+       iframe.height =  height;
+     }catch (e){}
+   }
 	</script>
 
 </head>
@@ -135,7 +145,7 @@
 	
 
 	<!--成员-->
-	<iframe src="member/memberone.html" frameborder="0" width=100% height=650px id="smemb"></iframe>
+	<iframe src="member/memberone.html" frameborder="0" width=100% id="smemb" onload="setHeight()"></iframe>
 
 
 	<!--成果-->
