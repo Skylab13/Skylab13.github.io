@@ -170,7 +170,7 @@
 		
 		<div id="chengguo">
 			<div class="photoblock-many">
-				<!--图片大小不一定是这么大，修改时可以调，不同大小的图片参差排列，效果好看就行-->
+				<!--王宇注意：图片大小不一定是这么大，修改时可以调，不同大小的图片参差排列，效果好看就行-->
 			 	<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
 				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
 				<a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="161" height="123" border="0" alt="" class="photo" /></a>
