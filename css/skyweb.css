@@ -57,11 +57,6 @@ body{
 	clear:both;
 	margin:40px auto 0;
 }
-/*成员简介*/
-.row-one{
-	float:left;
-	margin:30px 30px 30px 30px;
-}
 /*成员部分小标题*/
 #chengyuan{
 	font-weight: 400;
@@ -104,6 +99,9 @@ body{
 .photo{
 	margin:10px 50px 10px 50px;
 	
+}
+#memb{
+padding-right:-30px;
 }
 
 
