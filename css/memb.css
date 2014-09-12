@@ -1,9 +1,13 @@
 #sky-memb{
-	margin:0 auto;
-	width:90%;
+		margin:0 auto;
+		width:90%;
         border-color:white;
+		position:relative;
        
 }
+.row{
+	position:relative;
+	}
 .row-one{
 	float:left;
 	margin:30px 37px 30px 37px;
