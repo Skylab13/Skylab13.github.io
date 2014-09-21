@@ -30,6 +30,9 @@ body{
 	color:#666666;
 }
 /*各部分主框架*/
+#sky-title{
+	z-index:100;
+}
 #sky-intro{
 	margin:0 auto;
 	width:90%;
@@ -82,6 +85,9 @@ body{
 	width:576px;
 	height:435px;
 	padding:61px 0 0 99px;
+}
+#embed{
+	z-index:-100;
 }
 #power{
 	text-align:center;
