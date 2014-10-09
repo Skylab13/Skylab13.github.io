@@ -23,23 +23,3 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $(".one-five").click(function(){
-  $(".member").animate({left:(3*wid)});
-  });
-});
-$(document).ready(function(){
-  $(".one-six").click(function(){
-  $(".member").animate({left:(2*wid)});
-  });
-});
-$(document).ready(function(){
-  $(".one-seven").click(function(){
-  $(".member").animate({left:(4*wid)});
-  });
-});
-$(document).ready(function(){
-  $(".one-eight").click(function(){
-  $(".member").animate({left:(3*wid)});
-  });
-});
