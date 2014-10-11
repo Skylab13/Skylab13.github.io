@@ -1,3 +1,5 @@
+
+
 var wid = -document.body.clientWidth;
 
 $(document).ready(function(){
@@ -22,4 +24,3 @@ $(document).ready(function(){
   $(".member").animate({left:wid});
   });
 });
-

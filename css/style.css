@@ -1,13 +1,15 @@
 .all{ width:100%;
-      float:left;
       overflow:hidden;}
 .member{ width:6740px;
          height:600px;
          position:relative;
          float:left;}
 
+.orz{
+	align-content:center;
+	}
 
-.one{ width:220px;
+.one,.two,.three{ width:220px;
       height:600px;
       margin:0 58.5px;
       float:left;     }
