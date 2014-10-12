@@ -61,7 +61,10 @@ body{
 	clear:both;
 	margin:40px auto 0;
 }
-
+/*各部分小标题*/
+.bt{
+	margin-bottom:-40px;
+}
 /*成员部分小标题*/
 #chengyuan{
 	font-weight: 400;
