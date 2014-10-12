@@ -24,12 +24,10 @@ body{
 	font-size:18px;
 }
 /*简介部分文字*/
-#jianjie{
+#jianjie p{
 	text-align:center;
 	font-size:23px;
 	color:#666666;
-}
-#jianjie p{
 	font-family:"华文新魏";
 	font-style: normal;
 }
