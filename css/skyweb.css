@@ -7,6 +7,14 @@ body{
 	margin:0 0 30px 0;
 }
 /*简介部分小标题*/
+#main{
+	float:left;
+}
+.item{
+	width:1360px;
+	margin:0 auto;
+
+}
 #intro{
 	text-align:center;
 	margin: 60px 0 10px;
