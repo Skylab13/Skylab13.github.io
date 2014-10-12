@@ -26,10 +26,8 @@ body{
 /*简介部分文字*/
 #jianjie p{
 	text-align:center;
-	font-size:23px;
+	font-size:24px;
 	color:#666666;
-	font-family:"华文新魏";
-	font-style: normal;
 }
 
 /*各部分主框架*/
@@ -63,6 +61,7 @@ body{
 	clear:both;
 	margin:40px auto 0;
 }
+
 /*成员部分小标题*/
 #chengyuan{
 	font-weight: 400;
