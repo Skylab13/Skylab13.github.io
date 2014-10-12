@@ -26,9 +26,14 @@ body{
 /*简介部分文字*/
 #jianjie{
 	text-align:center;
-	font-size:16px;
+	font-size:23px;
 	color:#666666;
 }
+#jianjie p{
+	font-family:"华文新魏";
+	font-style: normal;
+}
+
 /*各部分主框架*/
 #sky-title{
 	z-index:100;
