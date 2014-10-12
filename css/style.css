@@ -1,18 +1,19 @@
 .all{ width:100%;
-      overflow:hidden;}
+      overflow:hidden;
+	  }
 .member{ width:4500px;
          height:600px;
          position:relative;
          float:left;}
 
 .orz{
-	width:1366px;
+	width:1360px;
 	float:left;
 	}
 
 .one,.two,.three{ width:220px;
       height:600px;
-      margin:0 58.5px;
+      margin:0 60px;
       float:left;     }
 .row-one{ margin:40px 0; }
 .row-two{ margin-top:40px;}
