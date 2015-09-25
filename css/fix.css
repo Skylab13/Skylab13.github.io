@@ -1,0 +1,36 @@
+/*fix.css*/
+
+.carousel-inner .item {
+	width: 100%;
+}
+
+.all {
+	max-width: 1100px;
+}
+
+.all .member {
+	width: 100%;
+}
+
+.all .memb-one {
+	width: 100%;
+}
+
+.all .memb-one .left-white {
+	width: 30px;
+}
+
+.all .memb-one .image img {
+	width: 30px;
+}
+
+.all .memb-two {
+	width: 200px;
+	margin: 0 30px;
+}
+
+.all .memb-two .circle,
+.memb-two .circle .img {
+	width: 200px;
+	height: 200px;
+}

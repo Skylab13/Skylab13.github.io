@@ -1,0 +1,606 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--永远以最新的ie版本来显示网页-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--根据设备宽度控制页面缩放-->
+<meta name="description" content="Sky工作室|卓越开发者的黑马训练营，成立于2004年，是一个由学院支持和领导，有专业老师带队，对学生进行梯队式培养的学生实践创新实验室">
+<meta name="keywords" content="Sky工作室，Java Web，LAMP网站项目开发，Android开发，iOS 开发，分布式集群平台开发，HTML5，CSS3， 网络富客户端应用开发">
+<meta name="author" content="Sky工作室">
+<link rel="icon" href="images/logo.ico">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>Sky 2014</title>
+<!--[if lt IE 9]>
+　　　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+　　<![endif]-->
+<link link rel="stylesheet" href="css/memb-style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/ihover.css" rel="stylesheet">
+<link href="css/skyweb.css" rel="stylesheet">
+<link href="css/fix.css" rel="stylesheet">
+<!-- 自定义CSS-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/FancyZoom.js"></script>
+<script src="js/FancyZoomHTML.js"></script>
+<script language="javascript">
+	$('body').scrollspy({ target: '.navbar-example' });
+	
+	  function setHeight(){
+  	var iframe = document.getElementById("smemb");
+     try{
+       var aHeight = iframe.contentWindow.document.body.scrollHeight;
+       var bHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+       var height = Math.max(aHeight, bHeight);//取最高值;
+       iframe.height =  height;
+     }catch (e){}
+   }
+	</script>
+<!--圆角边框-->
+<style type="text/css">
+#main-pic{
+	width:100%;
+	background:#FFF;
+	margin:0 auto;
+	}
+.raised {
+	background: transparent;
+	width: 90%;
+	margin: 0 auto;
+}
+.raised h1, .raised p {
+	margin: 0 10px;
+	padding: 20px;
+}
+.raised h1 {
+	font-size: 2em;
+	color: #fff;
+}
+.raised p {
+	padding-bottom: 0.5em;
+}
+.raised .b1, .raised .b2, .raised .b3, .raised .b4, .raised .b1b, .raised .b2b, .raised .b3b, .raised .b4b {
+	display: block;
+	overflow: hidden;
+	font-size: 1px;
+}
+.raised .b1, .raised .b2, .raised .b3, .raised .b1b, .raised .b2b, .raised .b3b {
+	height: 1px;
+}
+.raised .b2 {
+	background: #ccc;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #eee;
+}
+.raised .b3 {
+	background: #ccc;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #ddd;
+}
+.raised .b4 {
+	background: #ccc;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #aaa;
+}
+.raised .b4b {
+	background: #ccc;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #999;
+}
+.raised .b3b {
+	background: #ccc;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #999;
+}
+.raised .b2b {
+	background: #ccc;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #999;
+}
+.raised .b1 {
+	margin: 0 5px;
+	background: #fff;
+}
+.raised .b2, .raised .b2b {
+	margin: 0 3px;
+	border-width: 0 2px;
+}
+.raised .b3, .raised .b3b {
+	margin: 0 2px;
+}
+.raised .b4, .raised .b4b {
+	height: 2px;
+	margin: 0 1px;
+}
+.raised .b1b {
+	margin: 0 5px;
+	background: #999;
+}
+.raised .boxcontent {
+	display: block;
+	background: #ccc;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #999;
+}
+</style>
+</head>
+<body onLoad="setupZoom();" data-spy="scroll" data-target=".navbar-example">
+<script src="js/sone.js"></script> 
+<!--标题栏-->
+<div id="sky-title">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#">Sky Lab</a> </div>
+      <div class="collapse navbar-collapse navbar-example">
+        <ul class="nav navbar-nav nav-tabs">
+          <li class="active"> <a href="#main">主页</a> </li>
+          <li> <a href="#sm">成员</a> </li>
+          <li> <a href="#sa">成果</a> </li>
+          <li> <a href="#sly">留言</a> </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <p class="navbar-text"><a href="Requisition.docx" target="_blank"><img src="images/xbb.gif" width="25" height="20"/><img src="images/xb.png"></a></p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--图片滚动页-->
+<div id="main-pic">
+  <div id="carousel-example-generic"  class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"> <img data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide" src="images/img1.jpg">
+        <div class="carousel-caption">
+          <h3> <font size="+3" color="#000">我们一直在寻找</font> </h3>
+          <p><font color="#000">和我们共同学习、一起疯狂的伙伴</font></p>
+        </div>
+      </div>
+      <div class="item"> <img data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide" src="images/img2.jpg">
+        <div class="carousel-caption">
+          <h3> <font size="+3">我们一直在坚持</font> </h3>
+          <p>有梦的日子才可以让你我一起飞翔</p>
+        </div>
+      </div>
+      <div class="item"> <img data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide" src="images/img3.jpg">
+        <div class="carousel-caption">
+          <h3> <font size="+3">我们一直在期盼</font> </h3>
+          <p>你的加入会为我们注入新的力量</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+<!--简介-->
+<div id="sky-intro">
+  <div class="mintitle">
+    <h1 id="intro">Welcome to Skylab.</h1>
+    <hr width="75%"/>
+    <p class="intro2">如果有一天，我们湮没在人潮之中，庸碌一生，那是因为我们没有努力要活得丰盛。</p>
+  </div>
+  <!--视频部分-->
+  <div class="ipadFrame">
+    <div id="video">
+      <object>
+        <embed id="embed" src="http://www.tudou.com/v/mA6aZdxAGGc/&bid=05&resourceId=0_05_05_99/v.swf" allowFullScreen="true" quality="high" width="576" height="435" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" wmode="opaque"></embed>
+      </object>
+    </div>
+  </div>
+</div>
+<!--简介-->
+<div id="jian">
+  <div id="jianjie">
+    <div class="raised"> <b class="b1"></b><b class="b2"></b><b class="b3"></b><b class="b4"></b>
+      <div class="boxcontent">
+        <p style="font-family:'华文新魏';"> &emsp;&emsp;Sky工作室成立于2004年，是一个由沈阳师范大学支持和领导，有专业教授带队对学生进行梯队式培养的学生实践创新实验室。伴随着沈阳师范大学的发展，Sky工作室已成长为在计算机各个方面均有涉猎的综合性工作室。<br/>
+          &emsp;&emsp;Sky工作室自成立以来，一直在不断地完善自己，我们的前辈现今都已取得了很大的成就。毕业以后的他们，有的在沈阳航空航天大学做网络主管，有的为实现自己更高的理想而奔赴美国芝加哥、英国伦敦的大学继续深造，也有的进入了优秀的IT公司工作，包括百度、人人、金山、去哪儿网、新浪、创新工场、 360、腾讯、网易、华为、机锋网、锤子手机、中国移动等，还有的已经有了自己的软件公司他们分别在WEB编程、网络工程、操作系统、移动开发等方面都具有很深的造诣，并且他们将会一直把所学所得毫无保留细心地传授给下一届，就是这样一届一届的相传各自所长，从而达到共同学习和进步，这不仅使Sky工作室不断的壮大了起来，也使得我们为以后的工作积累了宝贵的经验。Sky工作室为我们提供的自由宽松的学习环境，营造的快乐和谐的学习氛围，不仅使我们每个人都能够各自发挥所长，也使得我们每个人的人生价值得以更好的体现。<br/>
+          &emsp;&emsp;我们真诚的欢迎学弟学妹们的加入，你可以对技术一无所知，但是一定要有一颗求知的心。我们不会在意你的过往，因为sky工作室将是你新的起点！ </p>
+      </div>
+      <b class="b4b"></b><b class="b3b"></b><b class="b2b"></b><b class="b1b"></b> </div>
+  </div>
+  <div id="sm"></div>
+</div>
+<!--成员-->
+<div align="center" class="bt"><img src="images/cy.jpg"/></div>
+<hr width="75%"/>
+<p class="intro2">我们过着最平凡的生活，却拥有最遥远的梦想，即使明天天寒地冻，路遥马亡。</p>
+<div class="all">
+  <div class="member">
+    <div class="memb-one">
+      <div class="left-white"></div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/lizhaod.jpg" alt="img"></div>
+            <div class="info">
+              <h3>10级 李兆丹</h3>
+              <p style="font-style:normal">&nbsp;美女学霸<br/>
+                现就读于东北大学</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a href="http://beyondweb.cn/" target="_blank">
+            <div class="img"><img src="member/images/wangchi.jpg" alt="img"></div>
+            <div class="info">
+              <h3>10级 王驰</h3>
+              <p style="font-style:normal">&nbsp;热衷于Web前端及PHP<br/>
+                令人敬畏的技术型学长<br/>
+                现在工作于新浪</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/hongyang.jpg" alt="img"></div>
+            <div class="info">
+              <h3>10级 洪洋</h3>
+              <p style="font-style:normal">&nbsp;&nbsp;一个慢热型的90后，时<br/>
+                &nbsp;&nbsp;而迷茫，时而激情。现在留学英国</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a href="http://xuruiqian.cn/" target="_blank">
+            <div class="img"><img src="member/images/qian.jpg" alt="img"></div>
+            <div class="info">
+              <h3>11级 徐瑞千</h3>
+              <p style="font-style:normal">&nbsp;目指す场所はただ<br/>
+                ひとつ<br/>
+                Fly to the light</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"> <a href="http://www.skyliuyang.cn/" target="_blank">
+            <div class="img"><img src="member/images/liuyang.jpg" alt="img"></div>
+            <div class="info">
+              <h3>10级 刘阳</h3>
+              <p style="font-style:normal">&nbsp;&nbsp;擅长基于Hadoop的<br/>
+                分布式计算平台及<br/>
+                移动应用开发<br/>
+                现在工作于北京</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/hudi.jpg" alt="img"></div>
+            <div class="info">
+              <h3>11级 胡迪</h3>
+              <p style="font-style:normal">隐形的翅膀<br/>
+                去拥抱太阳</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/haibo.jpg" alt="img"></div>
+            <div class="info">
+              <h3>10级 薛海博</h3>
+              <p style="font-style:normal">IT民工</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/wanghui.jpg" alt="img"></div>
+            <div class="info">
+              <h3>11级 王辉</h3>
+              <p style="font-style:normal">&nbsp;永远知道自己该做什么、<br/>
+                在做什么<br/>
+                Fighting！</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="image">
+        <div class="up"></div>
+        <div class="up-one"><img src="member/images/up.png"></div>
+        <div class="down-one"><img src="member/images/down.png"></div>
+      </div>
+    </div>
+    <div class="memb-one">
+      <div class="left-white"></div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"> <a href="http://xiaotang.me/" target="_blank">
+            <div class="img"><img src="member/images/wangxiaotang.jpg" alt="img"></div>
+            <div class="info">
+              <h3>11级 王小唐</h3>
+              <p style="font-style:normal">&nbsp;&nbsp;耐心负责，
+                难得的<br/>好学长，
+                ios+android<br/>
+                移动应用开发<br/>
+                现工作北京</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/jingke.jpg" alt="img"></div>
+            <div class="info">
+              <h3>11级 敬珂</h3>
+              <p style="font-style:normal">捷径就是<br/>
+                勤于积累、勤于学习<br/>
+                脚踏实地、积极肯干。</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"> <a href="http://www.fmeng.name/" target="_blank">
+            <div class="img"><img src="member/images/fmeng.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 冯广蒙</h3>
+              <p style="font-style:normal">&nbsp;Stay hungry<br/>
+                stay foolish !</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a href="http://blog.csdn.net/jiaobuchong/article/" target="_blank">
+            <div class="img"><img src="member/images/zj.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 周杰</h3>
+              <p style="font-style:normal">Hold on to your hats, hackers.</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a href="http://liyafeng.cn/" target="_blank">
+            <div class="img"><img src="member/images/liyafeng.gif" alt="img"></div>
+            <div class="info">
+              <h3>12级 李亚锋</h3>
+              <p style="font-style:normal">Description goes here</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/wangshu.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 王舒</h3>
+              <p style="font-style:normal">萌萌的舒舒就对啦</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/wangshuai.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 王帅</h3>
+              <p style="font-style:normal">赐我一块板子<br/>
+                啊啊啊啊啊!!!</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/liyue.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 李悦</h3>
+              <p style="font-style:normal">萌芽中的学霸<br/>
+                英语考试疯狂中。。</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="image">
+        <div class="up"></div>
+        <div class="up-two"><img src="member/images/up.png"></div>
+        <div class="down-two"><img src="member/images/down.png"></div>
+      </div>
+    </div>
+    <div class="memb-one">
+      <div class="left-white"></div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/wangtianmei.jpg" alt="img"></div>
+            <div class="info">
+              <h3>12级 王天媚</h3>
+              <p style="font-style:normal">Description goes here</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/anran.jpg" alt="img"></div>
+            <div class="info">
+              <h3>13级 赵安然</h3>
+              <p style="font-style:normal">Description goes here</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/yashu.jpg" alt="img"></div>
+            <div class="info">
+              <h3>13级 吕亚书</h3>
+              <p style="font-style:normal">真正的才智</br>是刚毅的志向。</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/wangyu.jpg" alt="img"></div>
+            <div class="info">
+              <h3>13级 王宇</h3>
+              <p style="font-style:normal">Description goes here</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/mayi.jpg" alt="img"></div>
+            <div class="info">
+              <h3>13级 马资懿</h3>
+              <p style="font-style:normal">若登高必自卑</br>若涉远必自迩</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/grace.jpeg" alt="img"></div>
+            <div class="info">
+              <h3>Your Name</h3>
+              <p style="font-style:normal">学长期待你的加入！</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="memb-two">
+        <div class="row-two"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/yzz.jpg" alt="img"></div>
+            <div class="info">
+              <h3>13级 殷振钟</h3>
+              <p style="font-style:normal">人得到什么<br/>
+                都要付出同等的代价</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+        <div class="row-three"> 
+          <!-- normal -->
+          <div class="ih-item circle effect3 right_to_left"><a>
+            <div class="img"><img src="member/images/han2.jpeg" alt="img"></div>
+            <div class="info">
+              <h3>Your Name</h3>
+              <p style="font-style:normal">学姐期待你的加入！</p>
+            </div>
+            </a></div>
+          <!-- end normal --> 
+        </div>
+      </div>
+      <div class="image">
+        <div class="up"></div>
+        <div class="up-three"><img src="member/images/up.png"></div>
+        <div class="down-three"><img src="member/images/down.png"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--成果-->
+<div id="sky-achi">
+  <div id="chengguo">
+    <div id="sa"></div>
+    <div class="photoblock-many">
+      <h2 align="center" class="bt"><img src="images/cg.jpg"/></h2>
+      <hr width="75%"/>
+      <p class="intro2">What hurts more,the pain of hard work,or the pain of regret?</p>
+      <br/>
+      <p> <a href="images/cg/cg1f.jpg" title="非法越境人员数据统计"><img src="images/cg/cg1.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg2f.jpg" title="沈阳师范大学轮滑协会"><img src="images/cg/cg2.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg3f.jpg" title="沈阳师范大学共青团委员会"><img src="images/cg/cg3.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg4f.jpg" title="让心灵去旅行主页"><img src="images/cg/cg4.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg5f.jpg" title="影视系统首页"><img src="images/cg/cg5.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg6f.jpg" title="辽宁省计算机大赛参赛作品"><img src="images/cg/cg6.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg7f.jpg" title="丰富的学习资源"><img src="images/cg/cg7.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg8f.jpg" title="凤凰山登顶"><img src="images/cg/cg8.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg9f.jpg" title="sky聚会13级"><img src="images/cg/cg9.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg10f.jpg" title="sky聚会12级"><img src="images/cg/cg10.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg11f.jpg" title="凤凰山山脚下"><img src="images/cg/cg11.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> <a href="images/cg/cg12f.jpg" title="千山合影"><img src="images/cg/cg12.jpg" width="197" height="145" border="0" alt="" class="photo" /></a> </p>
+    </div>
+  </div>
+</div>
+<!--留言-->
+<div id="sky-mess">
+  <div id="sly"><br/>
+  </div>
+  <div align="center" class="bt"><img src="images/ly.jpg"/></div>
+  <hr width="75%"/>
+  <p class="intro2">如果你想得到一些从没得到过的东西，那么你就得去做一些从没做过的事。Bless you!</p>
+  <br/>
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="Home" data-title="主页评论" data-url="http://skylab13.github.io/"></div>
+  <!-- 多说评论框 end --> 
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) --> 
+  <script type="text/javascript">
+		var duoshuoQuery = {short_name:"skylab"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script> 
+  <!-- 多说公共JS代码 end --> 
+</div>
+<!--foot-->
+<div id="foot">
+  <div id="power"> <font color="#999999">Powered by Sky工作室<br/>
+    Copyright © 2004-2014 skylab.org.cn All Rights Reserved.</font> </div>
+</div>
+
+<!--百度统计-->
+<div style="display:none"> 
+  <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc0ace261932134b3d2ff46d48e15f4e3' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+</div>
+</body>
+</html>

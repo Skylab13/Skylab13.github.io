@@ -1,0 +1,38 @@
+.all{
+      width:1350px;
+      height:600px;
+      margin:0 auto;
+      overflow:hidden;
+     }
+.member{ width:1340px;
+         height:1800px;
+         position:relative;}
+.memb-one{ width:1340px;
+           height:600px;}
+.left-white{ width:25px;
+             height:600px;
+             float:left;}
+.memb-two{ width:220px;
+           height:600px;
+           margin:0 50px;
+           float:left;}
+.memb-three{ width:220px;
+           height:600px;
+           margin:0 50px;
+           float:left;}
+.row-two,.row-three{ margin:40px 0;}
+.image{ width:30px;
+        height:600px;
+        float:left;
+      }
+.up{ width:30px;
+     height:250px;}
+.down{ width:30px;
+       height:280px;}
+.up-one,.up-two,.up-three{ width:30px;
+                          height:25px;
+                          margin-bottom:10px}
+.down-one,.down-two,.down-three{ width:30px;
+                                 height:25px;
+                                 margin-top:10px;}
+
