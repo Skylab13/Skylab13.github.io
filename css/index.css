@@ -13,7 +13,7 @@
 	background-size: 100% 100%;
 }
 .box p{
-	text-shadow: 3px 3px 3px grey;
+	text-shadow: 3px 3px 3px #686868;
 }
 .btn:hover{
 	opacity: 0.6;

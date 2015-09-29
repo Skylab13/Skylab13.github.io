@@ -10,7 +10,7 @@ body{
 	text-decoration: none;
 	box-shadow: 3px 3px 3px grey;
 	text-shadow: 3px 3px 3px grey;
-	font-family: Microsoft YaHei;
+	font-family: Arial,Verdana,Sans-serif;
 	border-radius: 5px;
 	width: 25px;
 	font-size: 25px;
@@ -40,7 +40,7 @@ input:hover + .aa{
 }
 .st-container .aa,.st-container input{
 	text-decoration: none;
-	width: 25%;
+	width: 20%;
 	height: 50px;
 	position: fixed;
 	bottom: 0;
@@ -79,17 +79,20 @@ input:hover + .aa{
 	opacity: 0.6;
 	filter: alpha(opacity=60);
 }
-#a1,#radio-1{
+#a0,#radio-0{
 	left: 0%;
 }
+#a1,#radio-1{
+	left: 20%;
+}
 #a2,#radio-2{
-	left: 25%;
+	left: 40%;
 }
 #a3,#radio-3{
-	left: 50%;
+	left: 60%;
 }
 #a4,#radio-4{
-	left: 75%;
+	left: 80%;
 }
 .scroll,.panel{
 	width: 100%;
@@ -118,39 +121,46 @@ input:hover + .aa{
 .panel{
 	overflow: hidden;
 }
-#radio-1:checked ~ .scroll{
+#radio-0:checked ~ .scroll{
 	-webkit-transform: translateY(0%);
 	-moz-transform: translateY(0%);
 	-o-transform: translateY(0%);
 	-ms-transform: translateY(0%);
 	transform: translateY(0%);
 }
-#radio-2:checked ~ .scroll{
+#radio-1:checked ~ .scroll{
 	-webkit-transform: translateY(-100%);
 	-moz-transform: translateY(-100%);
 	-o-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
 }
-#radio-3:checked ~ .scroll{
+#radio-2:checked ~ .scroll{
 	-webkit-transform: translateY(-200%);
 	-moz-transform: translateY(-200%);
 	-o-transform: translateY(-200%);
 	-ms-transform: translateY(-200%);
 	transform: translateY(-200%);
 }
-#radio-4:checked ~ .scroll{
+#radio-3:checked ~ .scroll{
 	-webkit-transform: translateY(-300%);
 	-moz-transform: translateY(-300%);
 	-o-transform: translateY(-300%);
 	-ms-transform: translateY(-300%);
 	transform: translateY(-300%);
 }
+#radio-4:checked ~ .scroll{
+	-webkit-transform: translateY(-400%);
+	-moz-transform: translateY(-400%);
+	-o-transform: translateY(-400%);
+	-ms-transform: translateY(-400%);
+	transform: translateY(-400%);
+}
 .pattern{
 	width: 200px;
 	height: 200px;
 	z-index: 10;
-	background-color: #C0C0C0;
+	background-color: white;
 	opacity: 0.6;
 	filter: alpha(opacity=60);
 	position: absolute;
@@ -171,7 +181,7 @@ input:hover + .aa{
 	content: attr(data-icon);
 	width: 200px;
 	height: 200px;
-	color: white;
+	color: #C0C0C0;
 	font-size: 90px;
 	text-align: center;
 	position: absolute;
@@ -191,6 +201,7 @@ input:hover + .aa{
 	width: 100%;
 	height: 70%;
 }
+#radio-0:checked ~ .scroll #panel-0 .cont,
 #radio-1:checked ~ .scroll #panel-1 .cont,
 #radio-2:checked ~ .scroll #panel-2 .cont,
 #radio-3:checked ~ .scroll #panel-3 .cont,
