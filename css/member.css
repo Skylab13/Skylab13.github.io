@@ -225,7 +225,7 @@
 		height: 100px;
 		text-align: center;
 		font-weight: 400;
-		font-size: 40px;
+		font-size: 25px;
 		font-family: Microsoft YaHei;
 		line-height: 100px;
 		opacity: 0.9;
@@ -245,7 +245,7 @@
 	}
 	.row2{
 		position: absolute;
-		left: 200px;
+		left: 213px;
 		top: -15px;
 	}
 	.row3{
