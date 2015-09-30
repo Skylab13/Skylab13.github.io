@@ -1,6 +1,18 @@
 .ds-thread{
 	position: absolute;
-	top: 20%;
 	left: 15%;
 	width: 70%;
+	margin-top: 10%;
+}
+.cen{
+	width: 90%;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	text-align: center;
+}
+.c1{
+	font-size: 150%;
+}
+.c2{
+	font-size: 140%;
 }
