@@ -240,38 +240,38 @@
 	}
 	.row1{
 		position: absolute;
-		left: 86px;
-		top: -13px;
+		left: 71px;
+		top: -15px;
 	}
 	.row2{
 		position: absolute;
-		left: 236px;
-		top: -13px;
+		left: 200px;
+		top: -15px;
 	}
 	.row3{
 		position: absolute;
-		left: 60px;
-		top: 32px;
+		left: 48px;
+		top: 26px;
 	}
 	.row4{
 		position: absolute;
-		left: 34px;
-		top: 77px;
+		left: 25px;
+		top: 67px;
 	}
 	.row5{
 		position: absolute;
-		left: 60px;
-		top: 122px;
+		left: 48px;
+		top: 108px;
 	}
 	.row6{
 		position: absolute;
-		left: 86px;
-		top: 167px;
+		left: 71px;
+		top: 149px;
 	}
 	.row7{
 		position: absolute;
-		left: 164px;
-		top: 212px;
+		left: 142px;
+		top: 190px;
 	}
 	.hr{
 		z-index: 10;
@@ -281,8 +281,8 @@
 		padding: 0;
 	}
 	.con-show01{
-		width: 50px;
-		height: 60px;
+		width: 45px;
+		height: 55px;
 		float: left;
 		overflow: hidden;
 		transform:rotate(120deg);
@@ -351,7 +351,7 @@
 	.con-show03:hover{
 		opacity: 0.9;
 		filter: alpha(opacity=90);
-		width: 60px;
+		width: 48px;
 	} 
 	.con1{
 		background-image: url(../pic/a1.png);
