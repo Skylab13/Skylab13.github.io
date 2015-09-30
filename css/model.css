@@ -120,7 +120,6 @@ input:hover + .aa{
 }
 .panel{
 	overflow: hidden;
-	background-attachment: fixed;
 }
 #radio-0:checked ~ .scroll{
 	-webkit-transform: translateY(0%);
