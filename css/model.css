@@ -262,7 +262,7 @@ input:hover + .aa{
 }
 @media screen and (max-width: 480px){
 	body{
-		background-image: url(../pic/bg2.jpg);
+		background-image: url(../pic/bg.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
