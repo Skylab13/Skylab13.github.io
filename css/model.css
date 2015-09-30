@@ -261,6 +261,14 @@ input:hover + .aa{
 	}
 }
 @media screen and (max-width: 480px){
+	body{
+		background-image: url(../pic/bg.jepg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family: 'Trebuchet MS', Helvetica, sans-serif;
+		overflow: hidden;	
+	}
 	.pattern{
 		width: 150px;
 		height: 150px;
