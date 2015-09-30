@@ -10,7 +10,6 @@
 iframe{
 	width: 100%;
 	height: 100%;
-	z-index: 3;
 }
 @media screen and (max-width: 540px){
 	.radio-box{
