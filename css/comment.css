@@ -16,3 +16,8 @@
 .c2{
 	font-size: 140%;
 }
+@media screen and (max-width: 480px){
+	.cen{
+		display: none;
+	}
+}
