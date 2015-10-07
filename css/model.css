@@ -266,6 +266,12 @@ input:hover + .aa{
 		background-image: url(../pic/bg.jpeg);
 		z-index: 2000;
 	}
+	.alert p{
+		font-size: 20px;
+		font-weight: 900;
+		color: white;
+		text-shadow: 1px 1px 1px grey;
+	}
 	.pattern{
 		width: 150px;
 		height: 150px;
