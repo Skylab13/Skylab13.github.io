@@ -1,12 +1,13 @@
 .radio-box{
-	margin: auto;
-	margin-top: 2%;
-    width: 55%;
-	height: 70%;
-	padding: 10px;
+    width: 840px;
+	height: 473px;
+	padding: 15px;
 	border: 1px solid grey;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px grey;
+	position:absolute; 
+	left:50%; top:50%; 
+	margin:-275.5px 0 0 -420px;
 }
 iframe{
 	width: 100%;
