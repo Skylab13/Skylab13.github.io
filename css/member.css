@@ -11,5 +11,64 @@
 	margin: 30.5px 19.5px;
 	float: left;
 }
-
-
+.al2{
+	position: absolute;
+	left:150%;
+	top:50%; 
+}
+.al3{
+	position: absolute;
+	left:250%;
+	top:50%; 
+}
+.al4{
+	position: absolute;
+	left:350%;
+	top:50%; 
+}
+.tleft2{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+}
+.tright1{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+}
+.tright2{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+}
+.tleft3{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+}
+.to:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+#scroll2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}

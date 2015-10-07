@@ -14,9 +14,16 @@
 	left: 12%;
 	width: 60%;
 	height: 100%;
-	color: grey;
-	text-shadow: 3px 3px 3px white;
+	color: #484B43;
 	font-size: 120%;
+}
+.wp{
+	width: 	1150px;
+	height: 520px;
+	position: absolute;	
+	left:50%;
+	top:50%; 
+	margin:-340px 0 0 -575px;
 }
 .ima{
 	display: inline;

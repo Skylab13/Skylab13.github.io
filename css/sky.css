@@ -1,5 +1,5 @@
 .radio-box{
-    width: 840px;
+    width: 700px;
 	height: 473px;
 	padding: 15px;
 	border: 1px solid grey;
@@ -7,7 +7,8 @@
 	box-shadow: 10px 10px 10px grey;
 	position:absolute; 
 	left:50%; top:50%; 
-	margin:-275.5px 0 0 -420px;
+	margin:-275.5px 0 0 -350px;
+	text-align: center;
 }
 iframe{
 	width: 100%;
