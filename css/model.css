@@ -5,6 +5,9 @@ body{
 	background-attachment: fixed;
 	overflow: hidden;
 }
+.alert{
+	display: none;
+}
 .download{
 	text-decoration: none;
 	box-shadow: 3px 3px 3px grey;
@@ -252,6 +255,16 @@ input:hover + .aa{
 		background-attachment: fixed;
 		font-family: 'Trebuchet MS', Helvetica, sans-serif;
 		overflow: hidden;	
+	}
+	.alert{
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url(../pic/bg.jpeg);
+		z-index: 2000;
 	}
 	.pattern{
 		width: 150px;
