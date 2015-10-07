@@ -48,6 +48,7 @@
 		position: absolute;
 		left: 6%;
 		top: -5%;
+		text-shadow: 1px 1px 1px white;
 	}
 	.ima{
 		display: inline;
@@ -69,6 +70,6 @@
 		top: 60%;
 	}
 	.code p{
-		font-size: 5px;
+		font-size: 10px;
 	}
 }
