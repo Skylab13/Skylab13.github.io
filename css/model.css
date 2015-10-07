@@ -3,7 +3,6 @@ body{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	overflow: hidden;
 }
 .download{
@@ -157,23 +156,7 @@ input:hover + .aa{
 	-ms-transform: translateY(-400%);
 	transform: translateY(-400%);
 }
-.pattern{
-	width: 200px;
-	height: 200px;
-	z-index: 10;
-	background-color: white;
-	opacity: 0.6;
-	filter: alpha(opacity=60);
-	position: absolute;
-	top: 0;
-	left: 50%;
-	margin-left: -100px;
-	-webkit-transform:translateY(-50%) rotate(45deg);
-	-moz-transform:translateY(-50%) rotate(45deg);
-	-ms-transform:translateY(-50%) rotate(45deg);
-	-o-transform:translateY(-50%) rotate(45deg);
-	transform:translateY(-50%) rotate(45deg);
-}
+
 #panel-1{
 	opacity: 0.8;
 	filter: alpha(opacity=80);
@@ -197,10 +180,10 @@ input:hover + .aa{
 }
 .panel .cont{
 	position: absolute;
-	left: 0%;
-	top: 20%;
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: 70%;
+	height: 100%;
 }
 #radio-0:checked ~ .scroll #panel-0 .cont,
 #radio-1:checked ~ .scroll #panel-1 .cont,

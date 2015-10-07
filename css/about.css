@@ -21,6 +21,7 @@
 	overflow: auto;
 }
 .ima{
+	display: inline;
 	margin: 0;
 	width: 80%;
 }
@@ -42,34 +43,34 @@
 }
 @media screen and (max-width: 540px){
 	.article{
-		font-size: 60%;
+		font-size: 80%;
 		width: 90%;
-		height: 60%;
+		height: 70%;
 		position: absolute;
-		left: 6%;
-		top: -5%;
-		text-shadow: 1px 1px 1px white;
+		left: 5%;
+		top: 0;
 	}
 	.ima{
-		display: inline;
 		margin: 0;
 		width: 90%;
 	}
 	.code{
 		text-align: center; 
-		width: 30%;
-	}
-	.code1{
-		position: relative;
-		left: 10%;
-		top: 60%;
-	}
-	.code2{
-		position: relative;
-		right: -10%;
-		top: 60%;
+		margin: 0;
+		width: 40%;
 	}
 	.code p{
 		font-size: 10px;
+		margin: 0;
+	}
+	.code1{
+		position:absolute;
+		left: 5%;
+		top: 65%;
+	}
+	.code2{
+		position: absolute;
+		left: 50%;
+		top: 65%;
 	}
 }

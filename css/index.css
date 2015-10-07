@@ -7,27 +7,22 @@
 	text-align: center;
 	margin: 0 auto;
 	z-index: 1000;
-	background-image: url(../pic/bg.jpg);
+	background-image: url(../pic/bg-1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
-.box p{
-	text-shadow: 3px 3px 3px #686868;
-}
+
 #p1{
 	color: white;
-	font-weight: 900;
 	font-size: 70px;
 }	 
 #p2{
 	color: white;
-	font-weight: 900;
 	font-size: 40px;
 }
 #p3,#p4{
 	color: white;
-	font-weight: 900;
 	font-size: 30px;
 }
 #p1{
@@ -62,9 +57,7 @@
 		margin: 0 auto;
 	}
 
-	.box p{
-		text-shadow: 2px 2px 2px #686868;
-	}
+
 	.box{
 		font-family: Papyrus;
 		position: absolute;

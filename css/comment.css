@@ -2,19 +2,26 @@
 	position: absolute;
 	left: 15%;
 	width: 70%;
-	margin-top: 10%;
+	height: 60%;
+	margin: 0;
 }
 .cen{
 	width: 90%;
-	color: white;
-	text-shadow: 2px 2px 2px grey;
+	height: 10%;
+	margin: 0;
+	color: #6F6F79;
 	text-align: center;
+	margin-top: 5%;
+}
+.cont4{
+	overflow: auto;
 }
 .c1{
 	font-size: 150%;
 }
 .c2{
 	font-size: 140%;
+	margin-top: 0;
 }
 @media screen and (max-width: 480px){
 	.cen{
