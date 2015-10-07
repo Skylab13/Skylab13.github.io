@@ -11,38 +11,16 @@
 }
 .article{
 	position: absolute;
-	left: 20%;
+	left: 12%;
 	width: 60%;
-	height: 70%;
+	height: 100%;
 	color: grey;
 	text-shadow: 3px 3px 3px white;
 	font-size: 120%;
 	font-weight: 900;
-	column-count: 2;
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	-ms-column-count: 2;
-	-o-column-count: 2;
-	overflow: auto;
-}
-.slogan{
-	position: absolute;
-	bottom: 0;
-	left: 20%;
-	font-size: 130%;
-	font-weight: 900;
-	border-top: 5px solid grey;
-	border-radius: 4px;
-	padding: 1%;
-	width: 60%;
-	height: 10%;
-	color: white;
-	text-shadow: 3px 3px 3px black;
-	margin: 0 auto;
 	overflow: auto;
 }
 .ima{
-	display: inline;
 	margin: 0;
 	width: 80%;
 }
@@ -50,23 +28,26 @@
 	text-align: center; 
 	margin: 2%;
 	float: left;
+	width: 15%;
+}
+.code1{
+	position: absolute;
+	right: 5%;
+	top: 0;
+}
+.code2{
+	position: absolute;
+	right: 5%;
+	top: 40%;
 }
 @media screen and (max-width: 540px){
 	.article{
-		font-size: 90%;
+		font-size: 60%;
 		width: 90%;
+		height: 60%;
 		position: absolute;
-		left: 5%;
-	}
-	.slogan{
-		border-top: 5px solid grey;
-		border-radius: 0;
-		font-size: 90%;
-		width: 90%;
-		position: absolute;
-		left: 5%;
-		bottom: 8%;
-		text-shadow: 1px 1px 3px black;
+		left: 6%;
+		top: -5%;
 	}
 	.ima{
 		display: inline;
@@ -75,11 +56,19 @@
 	}
 	.code{
 		text-align: center; 
-		margin: 0;
-		float: left;
+		width: 30%;
+	}
+	.code1{
+		position: relative;
+		left: 10%;
+		top: 60%;
+	}
+	.code2{
+		position: relative;
+		right: -10%;
+		top: 60%;
 	}
 	.code p{
-		font-size: 10px;
-		margin: 0;
+		font-size: 5px;
 	}
 }
