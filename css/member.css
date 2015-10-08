@@ -1,7 +1,7 @@
 .allmeb{
 	width: 1295px;
 	height: 600px;
-	position:fixed; 
+	position:absolute; 
 	left:50%;
 	top:50%; 
 	margin:-300px 0 0 -647.5px;
@@ -12,13 +12,13 @@
 	float: left;
 }
 .al2{
-	position: fixed;
+	position: absolute;
 	left:150%;
 	top:50%; 
 	display: none;
 }
 .al3{
-	position: fixed;
+	position: absolute;
 	left:250%;
 	top:50%; 
 	display: none;
