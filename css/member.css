@@ -1,30 +1,27 @@
 .allmeb{
 	width: 1295px;
 	height: 600px;
-	position:absolute; 
+	position:fixed; 
 	left:50%;
 	top:50%; 
 	margin:-300px 0 0 -647.5px;
 }
 .col-sm-6{
 	position: relative;
-	margin: 30.5px 19.5px;
+	margin: 30.5px 0;
 	float: left;
 }
 .al2{
-	position: absolute;
+	position: fixed;
 	left:150%;
 	top:50%; 
+	display: none;
 }
 .al3{
-	position: absolute;
+	position: fixed;
 	left:250%;
 	top:50%; 
-}
-.al4{
-	position: absolute;
-	left:350%;
-	top:50%; 
+	display: none;
 }
 .tleft2{
 	position: absolute;
