@@ -12,7 +12,11 @@
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
-
+#p5{
+	display: none;
+	color: white;
+	font-size: 30px;
+}
 #p1{
 	color: white;
 	font-size: 70px;
@@ -45,19 +49,9 @@
 	font-family: Microsoft YaHei;
 }
 @media screen and (max-width: 540px){
-	#p1{
-		font-size: 50px;
-	}	 
-	#p2{
-		font-size: 30px;
+	.ppp{
+		display: none;
 	}
-	#p3,#p4{
-		font-size: 20px;
-		width: 80%;
-		margin: 0 auto;
-	}
-
-
 	.box{
 		font-family: Papyrus;
 		position: absolute;
