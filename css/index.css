@@ -52,6 +52,9 @@
 	.ppp{
 		display: none;
 	}
+	#p5{
+		display: block;
+	}
 	.box{
 		font-family: Papyrus;
 		position: absolute;
